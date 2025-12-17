@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rare Launcher</string>
+    
+    <string name="login_title">Login to Epic Games</string>
+    <string name="login_description">Sign in to access your Epic Games library</string>
+    <string name="login_button">Login with Epic Games</string>
+    <string name="logging_in">Logging in…</string>
+    <string name="login_failed">Login failed. Please try again.</string>
+    <string name="login_success">Login successful!</string>
+    
+    <string name="library_title">My Library</string>
+    <string name="library_empty">No games found</string>
+    <string name="library_loading">Loading library…</string>
+    <string name="library_error">Error loading library</string>
+    <string name="retry">Retry</string>
+    <string name="logout">Logout</string>
+    
+    <string name="network_error">Network error. Please check your connection.</string>
+    <string name="unknown_error">An unknown error occurred</string>
+</resources>

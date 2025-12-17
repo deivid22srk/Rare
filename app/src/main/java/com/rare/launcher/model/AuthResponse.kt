@@ -1,0 +1,26 @@
+package com.rare.launcher.model
+
+import com.google.gson.annotations.SerializedName
+
+data class AuthResponse(
+    @SerializedName("access_token")
+    val accessToken: String,
+    
+    @SerializedName("refresh_token")
+    val refreshToken: String?,
+    
+    @SerializedName("expires_in")
+    val expiresIn: Int,
+    
+    @SerializedName("expires_at")
+    val expiresAt: String,
+    
+    @SerializedName("token_type")
+    val tokenType: String,
+    
+    @SerializedName("account_id")
+    val accountId: String,
+    
+    @SerializedName("displayName")
+    val displayName: String?
+)
